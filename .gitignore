@@ -1,0 +1,22 @@
+# Ignore temporary build workspace files
+Workspace/decompiled_game/
+Workspace/*.apk
+Workspace/unsigned_mod.apk
+Workspace/aligned_mod.apk
+
+# Keep preset JSON files in Workspace
+!Workspace/presets/
+!Workspace/presets/*.json
+
+# Ignore local logs (keep Logs folder structure)
+Logs/*.txt
+Logs/*.log
+!Logs/.gitkeep
+
+# Ignore IDE & OS files
+.idea/
+.vscode/
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
