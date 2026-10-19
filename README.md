@@ -6,13 +6,19 @@
 [![Android NDK](https://img.shields.io/badge/Android-NDK%20r21%2B-green?style=flat-square&logo=android)](https://developer.android.com/ndk)
 [![License](https://img.shields.io/badge/License-GPL--3.0-orange?style=flat-square)](https://github.com/engi26718-sketch/Tool-injector-Mod-Menu)
 
-An automated, cross-platform Android Mod Menu injector tool written in Python. It provides an **Interactive Mod Menu Configurator & Editor** to build features, manage memory offsets, customize floating icon graphics, generate C++ native code, run NDK compilation, and seamlessly inject floating Mod Menu overlays into any target Android game APK.
+An automated, cross-platform Android Mod Menu injector tool written in Python. It provides a **Modern Windows Desktop GUI App (`gui_app.py`)** and an **Interactive CLI Configurator** to build features, manage memory offsets, preview custom floating icon graphics live, generate C++ native code, run NDK compilation, and seamlessly inject floating Mod Menu overlays into any target Android game APK.
 
 ---
 
 ## ✨ Features
 
-- ⚙️ **Interactive Configurator / Editor CLI:**
+- 🖥️ **v2.0.0 Modern Windows Desktop GUI App (`gui_app.py` / `run_gui.bat`):**
+  - **1-Click Launch:** Run `run_gui.bat` to launch the dark-mode GUI app directly.
+  - **Live Floating Icon Preview:** Upload any PNG, JPG, or WEBP image and view a live circular floating icon preview inside the GUI window!
+  - **Visual Feature Builder Table:** Click `+ Add Feature` to add Toggles, Sliders, Category Headers, Buttons, Inputs, or Spinners.
+  - **Real-Time Progress Bar & Console:** Animate progress from 0% ➔ 100% with live embedded terminal logging during APK injection.
+
+- ⚙️ **Interactive Configurator / Editor Engine:**
   - **Library & Toast Settings:** Customize `.so` shared library name, launch Toast messages, menu header title, and marquee scrolling subtitle.
   - **Feature List Builder:** Add, edit, or delete Category Headers, Toggles, Sliders (SeekBars), Buttons, Input Values, and Spinners.
   - **Offset & Hex Patch Manager:** Assign memory offsets and hex patches (ARM64 & ARMv7) directly to feature IDs.
